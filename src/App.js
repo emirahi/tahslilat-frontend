@@ -261,7 +261,7 @@ function App() {
                 <td>{item.id}</td>
                 <td>{item.username}</td>
                 <td>{item.amount}</td>
-                <td>{item.type}</td>
+                <td>{item.Type}</td>
               </tr>
             ))
           ) : (
