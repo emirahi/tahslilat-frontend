@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 
 function App() {
-  // const baseUrl = "https://expresswebapi-tahsilat.onrender.com/api/";
-  const baseUrl = process.env.BackendUrl || "http://localhost:3001/api/";
+  const baseUrl = "https://expresswebapi-tahsilat.onrender.com/api/";
   const [jwt, setJwt] = useState(undefined);
   const [data, setData] = useState([]); // Tabloda görüntülenecek veriler
   const [formData, setFormData] = useState({
